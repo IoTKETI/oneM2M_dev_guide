@@ -21,6 +21,5 @@ svr = Server.createServer ((req, res) => {
 
 });
 svr.listen(port, 'localhost');
-svr.close();
 
 console.log('server is running at ', port);
